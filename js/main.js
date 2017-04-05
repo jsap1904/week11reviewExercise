@@ -42,11 +42,13 @@ var burger = new restaurants("Super Duper", 20, 10)
 
 console.log(burrito, pizza, burger)
 
-//displaying the sum
+//displaying calculation of 1+2+3+4+5
 var userInput = number( prompt("type in a number 1-10") )
+var previousNum = previousNum + i
 
 for( var i =userInput; i < 15; i++) {
-	console.log(i)
+	previousNum = previousNum + i
+	console.log(previousNum)
 
 }
 //multiplication table
@@ -55,3 +57,10 @@ for( var i = 1; i <=12 ; i++) {
 		console.log(i*k)
 	}
  }
+
+var num = 1.2
+
+console.log(Math.ceil(num)) //brings # up
+console.log(Math.floor(num)) // bring # down
+console.log(Math.round(num)) //rounds to nearest whole number
+console.log(Math.random() * 2) // will give you either 1 or 0 always
