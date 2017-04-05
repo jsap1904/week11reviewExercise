@@ -23,7 +23,7 @@ function vehicles(car, hp, year) {
 var honda = new vehicles("s2000", 220, 2005)
 var nissan = new vehicles("350z", 300, 2008)
 var subaru = new vehicles("STI", 300, 2013)
-
+//write a function in object that calculates something within the object and displays it
 function restaurants (name,seats,bookedseats,seatsOpen) {
 	this.name = name
 	this.seats = seats
@@ -42,11 +42,16 @@ var burger = new restaurants("Super Duper", 20, 10)
 
 console.log(burrito, pizza, burger)
 
-
+//displaying the sum
 var userInput = number( prompt("type in a number 1-10") )
 
 for( var i =userInput; i < 15; i++) {
 	console.log(i)
 
 }
-
+//multiplication table
+for( var i = 1; i <=12 ; i++) {
+	for (var k = 1; k <= 12; k++) {
+		console.log(i*k)
+	}
+ }
